@@ -8,4 +8,9 @@ function draw() {
 }
 
 setInterval(draw, 1000 / 60); // Update the canvas 60 times per second
+const canvas = document.getElementById("gameCanvas");
+const ctx = canvas.getContext("2d");
+
+const image = new Image();
+image.src = 'images/object.png'; // Change to your image path
 
