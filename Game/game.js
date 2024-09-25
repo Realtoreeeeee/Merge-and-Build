@@ -1,3 +1,4 @@
+image.src = 'images/object.png';
 
 // Get the canvas and context
 const canvas = document.getElementById("gameCanvas");
